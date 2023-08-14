@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+
+    <title>Number guessing game</title>
+  </head>
+
+  <body>
+    <h1>Adivina el numero</h1>
+
+    <p>Selecciona un numero entre el 01 y el 100. Mira si puedes adivinar el numero en diez o menos intentos. Como pista adicional, en cada intento te diremos si el numero que colocaste es menos o mayor al numero que deber adivinar.</p>
+
+    <div class="form">
+      <label for="guessField">Coloca el numero: </label>
+      <input type="number" min="1" max="100" required id="guessField" class="guessField">
+      <input type="submit" value="Enviar Respuesta" class="guessSubmit">
+    </div>
+
+    <div class="resultParas">
+      <p class="guesses"></p>
+      <p class="lastResult"></p>
+      <p class="lowOrHi"></p>
+    </div>
+
+  </body>
+</html>
